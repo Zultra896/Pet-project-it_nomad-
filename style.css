@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #000000 url(img/Squid-Game-Costume-PNG-HQ-Photo\ 1.svg) no-repeat center bottom 32px; 
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.objectList {
+    display: flex;
+    align-items: center;
+}
+
+.objectList-items {
+    display: flex;
+    align-items: center;
+}
+
+.objectList-items:nth-child(2) {
+    margin: 0 6px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+
+.info {
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.info-box1{
+    display: flex;
+    align-self: center;
+    padding-left: 42px;
+}
+.info-title {
+    display: flex;
+    font-size: 48px;
+    align-items: center;
+}
+.info-mask{
+    margin-left: 45px;
+}
+.info-box2{
+    display: flex;
+}
+.info-icon {
+    display: flex;
+    align-items: end;
+    padding-bottom: 5px;
+}
+.info-text {
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+.ramka {
+    position: absolute;
+    right: 60px;
+    top: 120px;
+}
+
+.start {
+    position: absolute;
+    right: 70px;
+    bottom: 50px;
+}
+
+.start-text {
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 29px;
+    left: 10px;
+}
+
+.head1 {
+    position: absolute;
+    bottom: 195px;
+    left: 300px;
+}
+
+.head2 {
+    position: absolute;
+    bottom: 95px;
+    right: 390px;
+}
+
+.light{
+    display: flex;
+}
+.light1 {
+    position: fixed;
+    bottom: -140px;
+    left: -80px;
+}
+.light2 {
+    position: fixed;
+    bottom: -140px;
+    right: -100px;
+}
+
+.fixed-menu {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    color: #FFFFFFCC;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(45px);
+}
+.fixed-menu-text1 {
+    display: flex;
+    align-self: center;
+}
+.menu-text1-item {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.menu-text1-item:last-child {
+    margin-right: 0px;
+}
+
+.fixed-menu-text2 {
+    display: flex;
+    align-self: center;
+}
+.menu-text2-item {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.menu-text2-item:last-child {
+    display: flex;
+    align-self: center;
+    margin-right: 0px;
+    color: #FFB800;
+}
+.menu-icontext {
+    margin-left: 10px;
+}
+
+.start-button {
+    display: flex;
+    align-self: center;
+    color: #fff;
+}
+
+.start-buttontext {
+    display: flex;
+    align-self: center;
+    margin-right: 20px;
+    font-size: 22px;
+}
